@@ -1,9 +1,9 @@
 body{
-    background-color: #ff4d4d;
 
-    background-image:url("./../images/ocean.gif");
+    background-color:lightskyblue;
+    background-image:url("./../images/redbg.jpg");
     background-size:100%;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height:100%;
     width:100%;
@@ -12,4 +12,53 @@ body{
 h1 {
    color: white;
    text-shadow: 5px 5px 5px #000000;
+}
+
+p {
+  margin-left: 300px ;
+  margin-right: 600px;
+}
+
+#page-wrap { 
+    width: 600px; 
+    margin: 15px auto; 
+    position: relative; 
+  }
+  
+  #sidebar { 
+    width: 250px; 
+    position: fixed; 
+    margin-left: 35px; 
+    margin-top: 100px;
+  }
+
+  ul.ulnav{
+border-radius: 25px;
+list-style-type:none;
+margin-right: 1600;
+padding: 0;
+overflow: hidden;
+background-color:royalblue;
+position fixed;
+}
+li.linav{
+  float: down;
+}
+li.linav a{
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.linav a.active{
+  display: block;
+  background-color: steelblue;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.linav a:hover{
+  background-color: snow;
 }
