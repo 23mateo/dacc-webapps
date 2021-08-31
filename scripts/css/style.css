@@ -1,7 +1,7 @@
 body{
 
     background-color:#a2b3d8;
-    background-image:url("../../images/cbg3.png");
+    background-image:url("../../images/cbg4.png");
     background-size:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -88,6 +88,9 @@ a.nav:hover{
   font-style: italic;
 }
 img.cat2 {
-  margin-left: 50px;
+  border-radius: 10px;
+}
+img.edit1{
+  margin-left: 30px;
   border-radius: 10px;
 }
