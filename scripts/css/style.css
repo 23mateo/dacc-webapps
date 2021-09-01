@@ -94,3 +94,35 @@ img.edit1{
   margin-left: 30px;
   border-radius: 10px;
 }
+#page_wrapper{
+  border-radius: 10px;
+  border: 2px solid #333333;
+  padding: 10px;
+  height: 150px;
+  width: 1500px;
+  background: rgba(65, 65, 65, 0.74);
+}
+p.p_content{
+  font-size: 14pt;
+  color: #ffffff;
+  font-family: Verdana;
+  background-color: #999999;
+  padding: 5px;
+  border: 2px solid #333333;
+}
+span.font1{
+  font-size: 20pt;
+  color: #ffffff;
+  font-family: verdana;
+  font-weight: bold;
+}
+
+
+#project_container{
+  border-radius: 7px;
+  border: 2px solid rgba(0, 0, 0, 0.726);
+  padding: 5px;
+  height: 570px;
+  width: 400px;
+  background: rgb(101, 196, 144);
+}
