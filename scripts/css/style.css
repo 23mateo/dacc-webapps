@@ -126,3 +126,9 @@ span.font1{
   width: 400px;
   background: rgb(101, 196, 144);
 }
+a.gamelink{
+  color: black;
+}
+a.gamelink:hover{
+  font-style: italic;
+}
