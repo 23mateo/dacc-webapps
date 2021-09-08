@@ -133,3 +133,11 @@ a.gamelink{
 a.gamelink:hover{
   font-style: italic;
 }
+a.dacclink{
+  text-decoration: none;
+  color: rgb(45, 77, 255);
+}
+a.dacclink:hover{
+  color: purple;
+  font-style: italic;
+}
